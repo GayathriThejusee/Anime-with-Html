@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlock the Surprise 🎁</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: #FFD3E0 background-color: #0f141f;
+            background-image: url("https://www.transparenttextures.com/patterns/skulls.png"); /* Romantic heart pattern background */
+            background-size: cover;
+            animation: fadeIn 3s ease-out; /* Fade-in animation */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #E91E63;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.3s; /* Added a transition for a smooth effect */
+        }
+
+        button:hover {
+            background-color: #C2185B;
+            transform: scale(1.05); /* Zoom effect on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎉 Unlock the Surprise 🎁</h1>
+
+    <p>Click the button below to reveal the magical surprise awaiting you!</p>
+
+    <button id="toggleButton" onclick="redirectToSurprise()">Discover Now</button>
+
+    <script>
+        function redirectToSurprise() {
+            window.location.href = '!DOCTYPE.html';
+        }
+    </script>
+
+</body>
+</html>
